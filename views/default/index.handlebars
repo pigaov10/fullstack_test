@@ -1,0 +1,19 @@
+
+<table border="1">
+  <tr>
+    <th>Cliente</th>
+    <th>Desde</th>
+    <th>Valor</th>
+  </tr>
+  {{#each default}}
+    <tr>
+      <td>{{client}}</td>
+      <td>{{since}}</td>
+      <td>{{value}}</td>
+    </tr>
+  {{else}}
+    <tr>
+      <td>Empty</td>
+    </tr>
+  {{/each}}
+</table>
